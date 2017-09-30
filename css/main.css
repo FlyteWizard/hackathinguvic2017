@@ -57,10 +57,12 @@
 body {
 	height: 100%;
 	width: 100%;
+
 	font-family: "Comic Sans MS", sans-serif;
-}
-body {
-	font-family: "Comic Sans MS", sans-serif;
+
+	background: url("/imgs/geometry_@2X.png") repeat;
+	background-color: rgba(69, 99, 176, 0.6);
+	background-blend-mode: color-burn;
 }
 
 header {
@@ -97,7 +99,6 @@ header a {
     display: -webkit-flex;
     display: flex;
     align-items: center;
-    justify-content: center;
 	
 	flex-flow: row wrap;
 	justify-content: center;
@@ -109,7 +110,7 @@ header a {
 	justify-content: right;
 	font-family: "Comic Sans MS";
 	color: black;
-    font-size: 100px;
+    font-size: 90px;
 	font-weight: 500;
 	
 	align-self: center;
@@ -122,19 +123,47 @@ header a {
 	font-family: "Comic Sans MS";
 	font-style: italic;
 	color: black;
-    font-size: 36px;
+    font-size: 30px;
 	font-weight: 200;
 	align-self: center;
 }
 
-.hero-container p {
-    padding: 15px 0 150px 0;
-	line-height: 1.8;
-	width: 400px;
-	height: 200px;
+.description-container {
+	padding-top: 100px;
+	margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	font-family: 'Raleway';
 
 }
 
+.description-container h2 {
+	padding: 40px;
+	font-style: bold;
+	color: black;
+    font-size: 30px;
+	font-weight: 200;
+	align-self: center;
+}
+
+.description-container p {
+    padding: 0px 0 150px 0;
+	line-height: 2;
+	font-size: 18px;
+	width: 670px;
+	text-align: center;
+}
+
 @media (max-width: 500px) {
-	h1 { font-size: 20px;}
+	.hero-container h1 { font-size: 40px;}
+	.description-container p {
+		text-align: justify;
+		text-justify: right;
+	}
+
 }
