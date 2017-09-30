@@ -57,13 +57,13 @@
 body {
 	height: 100%;
 	width: 100%;
-	font-family: 'Playfair Display', sans-serif;
+
+	font-family: "Comic Sans MS", sans-serif;
 
 	background: url("/imgs/geometry_@2X.png") repeat;
 	background-color: rgba(69, 99, 176, 0.6);
 	background-blend-mode: color-burn;
 }
-
 
 header {
 	padding: 50px 0;
@@ -108,7 +108,7 @@ header a {
 .hero-container h1 {
 	padding-top: 40px;
 	justify-content: right;
-	font-family: 'Raleway';
+	font-family: "Comic Sans MS";
 	color: black;
     font-size: 90px;
 	font-weight: 500;
@@ -120,7 +120,7 @@ header a {
 .hero-container h2 {
 	margin: 0px auto auto auto;
 	padding-top: 40px;
-	font-family: 'Raleway';
+	font-family: "Comic Sans MS";
 	font-style: italic;
 	color: black;
     font-size: 30px;
