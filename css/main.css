@@ -60,7 +60,7 @@ body {
 
 	font-family: "Comic Sans MS", sans-serif;
 
-	background: url("/imgs/geometry_@2X.png") repeat;
+	background: url("../imgs/geometry_@2X.png") repeat;
 	background-color: rgba(69, 99, 176, 0.6);
 	background-blend-mode: color-burn;
 }
