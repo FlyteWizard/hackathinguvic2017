@@ -6,6 +6,14 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--hackathing-black: #000000;
+	--hackathing-yellow: #F6C92E;
+	--hackathing-red: #F4523A;
+	--hackathing-orange: #F58E2E;
+	--hackathing-blue: #4463B3;
+	--hackathing-green: #67C1A4;
+  }
 .flex {
 	display: flex;
 	display: -webkit-box;
