@@ -13,7 +13,8 @@
 	--hackathing-orange: #F58E2E;
 	--hackathing-blue: #4463B3;
 	--hackathing-green: #67C1A4;
-  }
+}
+
 .flex {
 	display: flex;
 	display: -webkit-box;
