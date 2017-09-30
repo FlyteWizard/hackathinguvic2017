@@ -48,10 +48,10 @@
 body {
 	height: 100%;
 	width: 100%;
-	font-family: 'Playfair Display', sans-serif;
+	font-family: "Comic Sans MS", sans-serif;
 }
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Comic Sans MS", sans-serif;
 }
 
 header {
@@ -98,7 +98,7 @@ header a {
 .hero-container h1 {
 	padding-top: 40px;
 	justify-content: right;
-	font-family: 'Raleway';
+	font-family: "Comic Sans MS";
 	color: black;
     font-size: 100px;
 	font-weight: 500;
@@ -110,7 +110,7 @@ header a {
 .hero-container h2 {
 	margin: 0px auto auto auto;
 	padding-top: 40px;
-	font-family: 'Raleway';
+	font-family: "Comic Sans MS";
 	font-style: italic;
 	color: black;
     font-size: 36px;
