@@ -39,6 +39,10 @@
 	justify-content: center;
 }
 
+._justify-right {
+	justify-content: right;
+}
+
 .flexbox-row {
 	display: flex;
 	height: 100%;
@@ -69,7 +73,7 @@ body {
 nav {
 	font-family: 'Raleway';
 	padding: 50px 0;
-	margin-bottom: -140px;
+	margin-bottom: -100px;
 	font-size: 18px;
 }
 
