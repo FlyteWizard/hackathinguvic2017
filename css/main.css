@@ -58,24 +58,37 @@ body {
 	height: 100%;
 	width: 100%;
 
-	font-family: "Comic Sans MS", sans-serif;
+	/* Can comic sans this after - want to make it look serious first. */
+	/* font-family: "Comic Sans MS", sans-serif; */
 
 	background: url("../imgs/geometry_@2X.png") repeat;
 	background-color: rgba(69, 99, 176, 0.6);
 	background-blend-mode: color-burn;
 }
 
-header {
+nav {
+	font-family: 'Raleway';
 	padding: 50px 0;
+	margin-bottom: -140px;
+	font-size: 18px;
 }
 
-header a {
+nav span {
+	padding-left: 10px;
+}
 
+nav a {
 	letter-spacing: 1px;
-	padding: 0 10px;
 	text-decoration: none;
-	color: #000;
+	color:black;
 	font-weight: 300;
+	padding-left: 10px;
+}
+
+nav a:hover {
+	/* using var isn't supported in IE 11 */
+	color: var(--hackathing-yellow);
+	text-shadow: 2px 1px black;
 }
 
 #hero-title {
@@ -108,7 +121,8 @@ header a {
 .hero-container h1 {
 	padding-top: 40px;
 	justify-content: right;
-	font-family: "Comic Sans MS";
+	/* font-family: "Comic Sans MS"; */
+	font-family: 'Raleway';
 	color: black;
     font-size: 90px;
 	font-weight: 500;
@@ -118,9 +132,10 @@ header a {
 }
 
 .hero-container h2 {
-	margin: 0px auto auto auto;
+	margin: -20px auto auto auto;
 	padding-top: 40px;
-	font-family: "Comic Sans MS";
+	/* font-family: "Comic Sans MS"; */
+	font-family: 'Raleway';
 	font-style: italic;
 	color: black;
     font-size: 30px;
@@ -142,7 +157,7 @@ header a {
 }
 
 .description-container {
-	padding-top: 100px;
+	padding-top: 20px;
 	margin: 0;
     display: -webkit-box;
     display: -moz-box;
@@ -159,8 +174,8 @@ header a {
 	padding: 40px;
 	font-style: bold;
 	color: black;
-    font-size: 30px;
-	font-weight: 200;
+    font-size: 33px;
+	font-weight: 500;
 	align-self: center;
 }
 
@@ -173,24 +188,78 @@ header a {
 }
 
 .schedule-container {
+	font-family: 'Raleway';
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-direction: row;
 	flex-direction: row;
-	-webkit-align-items: flex-start;
-	align-items: flex-start;
+	-webkit-justify-content: center;
+	justify-content: center;
  }
 
- ul {
-	 padding: 20px;
+ .schedule-title {
+	font-family: 'Raleway';
+	display: -webkit-flex;
+	display: flex;
+
+	padding: 40px;
+	font-style: bold;
+	font-size: 33px;
+	font-weight: 500;
+	color: black;
+
+	align-self: center;
+	-webkit-justify-content: center;
+	justify-content: center;
  }
 
+ul {
+	padding: 20px;
+	list-style-type: none;
+}
+
+li {
+	height: 70px;
+}
+
+.break {
+	color: var(--hackathing-yellow);
+	text-shadow: 2px 1px black;
+}
+
+ .times-item {
+	 align-items: right;
+	 text-align: right;
+	 width: 300px;
+	 font-size: 25px;
+	 font-weight: 500;
+ }
+
+.actions-item {
+	align-items: left;
+	width: 400px;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 2;
+}
+
+
+@media (max-width: 700px) {
+	.description-container p {
+		text-align: justify;
+		text-justify: right;
+		width: 500px;
+	}
+}
 
 @media (max-width: 500px) {
 	.hero-container h1 { font-size: 40px;}
 	.description-container p {
 		text-align: justify;
 		text-justify: right;
+		width: 350px;
 	}
-
+	li {
+		height: 90px;
+	}
 }

@@ -30,12 +30,21 @@
 </head>
 <body>
 <div class="flex _direction-column container">
+    <nav class="flex _space-between">
+            
+        <div><span>logo here</span></div>
+            
+        <div>
+            <a href="#desc" target="_self">description</a>
+            <a href="#sched" target="_self">schedule</a>
+        </div>
+    </nav>
 
     <!-- TODO Semantic HTML-->
 	<div class="hero-container">
-		<!-- biography thing -->
 			<h1>hackathing uvic</h1>
 			<h2>"Look, projects, hire me!"</h2>
+
 
         <!-- Registration Button-->
             <div>
@@ -44,24 +53,35 @@
 	</div>
 
 
-	<div class = "description-container _direction-column">
+	<section class = "description-container _direction-column" id="desc">
 		<h2>what dis?</h2>
 		<p>
 		Hackathing UVic introduces beginner programmers to hackathons. It’s meant 
-		to encourage programmers to create a project without the pressure of needing 
+		to encourage people to create a project without the pressure of needing 
 		to make something serious. There will be a variety of skill levels attending, 
 		from people who have programmed for years to people who've never coded 
 		anything in their lives. Come and create something - anything. 
 		</p>
-	</div>
+    </section>
 
     <!-- this is where two columns go for the schedule -->
-    <section class = "schedule-container _justify-center">
-        <ul class = "times">
-            times
+    <h2 class="schedule-title">schedule</h2>
+    <section class = "schedule-container _justify-center" id="sched">
+        <ul class = "times-item">
+            <li>8:30</li>
+            <li>9:30</li>
+            <li>10:00</li>
+            <li class = "break">12:00</li>
+            <li>4:00</li>
+            <li>4:30</li>
         </ul>
-        <ul class = "actions">
-            actions
+        <ul class = "actions-item">
+            <li>registation</li>
+            <li>opening remarks</li>
+            <li>hack a thing</li>
+            <li class = "break">LUNCH BREAK</li>
+            <li>show n tell or whatever</li>
+            <li>closing remarks</li>
         </ul>
     </section>
     
