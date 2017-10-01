@@ -159,6 +159,20 @@ header a {
 	text-align: center;
 }
 
+.schedule-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+ }
+
+ ul {
+	 padding: 20px;
+ }
+
+
 @media (max-width: 500px) {
 	.hero-container h1 { font-size: 40px;}
 	.description-container p {
