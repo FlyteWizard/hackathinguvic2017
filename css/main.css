@@ -201,7 +201,8 @@ nav a:hover {
 	justify-content: center;
  }
 
- .schedule-title {
+ .schedule-title,
+ .sponsors-title {
 	font-family: 'Raleway';
 	display: -webkit-flex;
 	display: flex;
@@ -231,7 +232,7 @@ li {
 	text-shadow: 2px 1px black;
 }
 
- .times-item {
+.times-item {
 	 align-items: right;
 	 text-align: right;
 	 width: 300px;
@@ -246,6 +247,21 @@ li {
 	font-weight: 200;
 	line-height: 2;
 }
+
+.sponsors-container {
+	font-family: 'Raleway';
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-justify-content: center;
+	justify-content: center;
+ }
+
+ .uvic_icon{
+	height: 100px; 
+	width: auto;
+ }
 
 
 @media (max-width: 700px) {
