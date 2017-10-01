@@ -143,6 +143,19 @@ nav a:hover {
 	align-self: center;
 }
 
+.hero-container div {
+	align-self: center;
+    margin: -50px auto auto;
+    width: 100%;
+    text-align: center;
+}
+.hero-container div a {
+	text-decoration: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 9px;
+}
+
 .description-container {
 	padding-top: 20px;
 	margin: 0;
