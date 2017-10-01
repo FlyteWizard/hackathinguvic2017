@@ -39,6 +39,10 @@
 	justify-content: center;
 }
 
+._justify-right {
+	justify-content: right;
+}
+
 .flexbox-row {
 	display: flex;
 	height: 100%;
