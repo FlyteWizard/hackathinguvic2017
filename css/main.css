@@ -1,3 +1,4 @@
+/* Font */
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 * {
@@ -8,8 +9,10 @@
 	box-sizing: border-box;
 }
 
+/* Note: this isn't supported on all browsers */
 :root {
 	--hackathing-black: #000000;
+	--hackathing-white: #FFFFFF;
 	--hackathing-yellow: #F6C92E;
 	--hackathing-red: #F4523A;
 	--hackathing-orange: #F58E2E;
@@ -17,11 +20,17 @@
 	--hackathing-green: #67C1A4;
 }
 
+/* Flex Box */
 .flex {
 	display: flex;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
+}
+
+.flexbox-row {
+	display: flex;
+	height: 100%;
 }
 
 ._space-between {
@@ -45,9 +54,14 @@
 	justify-content: right;
 }
 
-.flexbox-row {
-	display: flex;
+/* Main Container */
+body {
 	height: 100%;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	background: url("./../imgs/geometry_@2X.png") repeat;
+	background-color: rgba(69, 99, 176, 0.6);
+	background-blend-mode: color-burn;
 }
 
 .container {
@@ -60,18 +74,7 @@
 	-moz-animation: fadeup 1.5s;
 }
 
-body {
-	height: 100%;
-	width: 100%;
-
-	/* Can comic sans this after - want to make it look serious first. */
-	/* font-family: "Comic Sans MS", sans-serif; */
-
-	background: url("../imgs/geometry_@2X.png") repeat;
-	background-color: rgba(69, 99, 176, 0.6);
-	background-blend-mode: color-burn;
-}
-
+/* Header and Navigation */
 header {
 	font-family: 'Raleway';
 	padding: 50px 0;
@@ -86,18 +89,19 @@ header img {
 nav a {
 	letter-spacing: 1px;
 	text-decoration: none;
-	color:black;
+	color: var(--hackathing-black);
 	font-weight: 300;
 	padding-left: 10px;
 }
 
 nav a:hover {
-	/* using var isn't supported in IE 11 */
+	/* Var isn't supported in IE 11 */
 	color: var(--hackathing-yellow);
-	text-shadow: 2px 1px black;
+	text-shadow: 2px 1px var(--hackathing-black);
 }
 
-.hero-container {
+/* Action */
+.action-container {
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -116,11 +120,10 @@ nav a:hover {
 	justify-content: center;
 }
 
-
-.hero-container h1 {
+.action-container h1 {
 	padding-top: 40px;
 	justify-content: right;
-	color: black;
+	color: var(--hackathing-black);
     font-size: 90px;
 	font-weight: 500;
 	
@@ -128,32 +131,41 @@ nav a:hover {
 	margin: auto auto 0px auto;
 }
 
-.hero-container h2 {
+.action-container h2 {
 	margin: -20px auto auto auto;
 	padding-top: 40px;
 	font-style: italic;
-	color: black;
+	color: var(--hackathing-black);
     font-size: 30px;
 	font-weight: 200;
 	align-self: center;
 }
 
-.hero-container section {
+/* Registration */
+.registration-container {
 	align-self: center;
-    margin: -50px auto auto;
+    margin: -90px auto auto auto;
     width: 100%;
     text-align: center;
 }
-.hero-container section .button {
+
+.registration-container .button {
+	color: var(--hackathing-white);
 	text-decoration: none;
-    border: 1px solid black;
-    border-radius: 4px;
-    padding: 9px;
+    border: 1px solid var(--hackathing-black);
+    border-radius: 5px 4px 3px 2px;
+    padding: 10px;
 }
-.hero-container section p {
+
+.registration-container p {
 	margin-top: 30px;
 }
 
+.registration-container p a {
+	color: var(--hackathing-white);
+}
+
+/* Description */
 .description-container {
 	padding-top: 20px;
 	margin: 0;
@@ -185,6 +197,7 @@ nav a:hover {
 	text-align: center;
 }
 
+/* Schedule */
 .schedule-container {
 	font-family: 'Raleway';
 	display: -webkit-flex;
@@ -193,11 +206,12 @@ nav a:hover {
 	flex-direction: row;
 	-webkit-justify-content: center;
 	justify-content: center;
- }
+}
 
- .schedule-title,
- .sponsors-title, 
- .description-title {
+/* Text */
+.schedule-title,
+.sponsors-title, 
+.description-title {
 	font-family: 'Raleway';
 	display: -webkit-flex;
 	display: flex;
@@ -211,31 +225,32 @@ nav a:hover {
 	align-self: center;
 	-webkit-justify-content: center;
 	justify-content: center;
- }
+}
 
-ul {
+/* Schedule Table */
+.schedule-container ul {
 	padding: 20px;
 	list-style-type: none;
 }
 
-li {
+.schedule-container ul li {
 	height: 70px;
 }
 
-.break {
+.schedule-container ul .break {
 	color: var(--hackathing-yellow);
 	text-shadow: 2px 1px black;
 }
 
-.times-item {
+.schedule-container .times-item {
 	 align-items: right;
 	 text-align: right;
 	 width: 300px;
 	 font-size: 25px;
 	 font-weight: 500;
- }
+}
 
-.actions-item {
+.schedule-container .actions-item {
 	align-items: left;
 	width: 400px;
 	font-size: 18px;
@@ -243,6 +258,7 @@ li {
 	line-height: 2;
 }
 
+/* Sponsor */
 .sponsors-container {
 	font-family: 'Raleway';
 	display: -webkit-flex;
@@ -251,14 +267,15 @@ li {
 	flex-direction: row;
 	-webkit-justify-content: center;
 	justify-content: center;
- }
+}
 
- .uvic_icon{
+/* Logo */
+.uvic_icon{
 	height: 100px; 
 	width: auto;
- }
+}
 
-
+/* Media Queries */
 @media (max-width: 700px) {
 	.description-container p {
 		text-align: justify;
@@ -268,13 +285,15 @@ li {
 }
 
 @media (max-width: 500px) {
-	.hero-container h1 { font-size: 40px;}
+	.action-container h1 { 
+		font-size: 40px;
+	}
 	.description-container p {
 		text-align: justify;
 		text-justify: right;
 		width: 350px;
 	}
-	li {
+	.schedule-container ul li {
 		height: 90px;
 	}
 }
