@@ -14,107 +14,103 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <!-- FONT
+    <!-- Stylesheets
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-    
-    <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/animations.css">
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+    <!-- <link rel="icon" type="image/png" href="./imgs/favicon.png"> -->
     
 </head>
 <body>
-<div class="flex _direction-column container">
-    <nav class="flex _space-between _justify-end">
+<main class="flex _direction-column container">
+    <!-- Header -->
+    <header class="flex _space-between _justify-end">
+        <img src="" alt="logo">
             
-        <div><span>logo</span></div>
-            
-        <div>
+        <!-- Navigation -->
+        <nav>
             <a href="#desc" target="_self">description</a>
             <a href="#sched" target="_self">schedule</a>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- TODO Semantic HTML-->
-	<div class="hero-container">
-			<h1>hackathing uvic</h1>
-			<h2>"Look, projects, hire me!"</h2>
-
+    <!-- Tagline and Action -->
+	<section class="hero-container">
+		<h1>hackathing uvic</h1>
+		<h2>"Look, projects, hire me!"</h2>
 
         <!-- Registration Button-->
-            <div>
-                <a href="">Press mE!</a>
-            </div>
-	</div>
+        <section>
+            <a class="button" href="">Register Here!</a>
+            <p>or here: <a href="">link to google form</a></p>
+        </section>
+    </section>
 
-
+    <!-- Description -->
+    <h2 class="description-title">what dis?</h2>
 	<section class = "description-container _direction-column" id="desc">
-		<h2>what dis?</h2>
 		<p>
-		Hackathing UVic introduces beginner programmers to hackathons. It’s meant 
-		to encourage people to create a project without the pressure of needing 
-		to make something serious. There will be a variety of skill levels attending, 
-		from people who have programmed for years to people who've never coded 
-		anything in their lives. Come and create something - anything. 
+        Hackathing UVic introduces beginner programmers, marketers, and designers to hackathons. 
+        It’s meant to encourage people to create a project without the pressure of needing to make something serious. 
+        There will be a variety of skill levels attending, 
+        from people who have hacked for years to people who've never hacked anything in their lives. 
+        Come and create something - anything. 
 		</p>
     </section>
 
-    <!-- this is where two columns go for the schedule -->
+    <!-- Schedule -->
     <h2 class="schedule-title">schedule</h2>
     <section class = "schedule-container _justify-center" id="sched">
+        <!-- Time Column -->
         <ul class = "times-item">
-            <li>8:30</li>
-            <li>9:30</li>
+            <li>08:30</li>
+            <li>09:30</li>
             <li>10:00</li>
             <li class = "break">12:00</li>
-            <li>4:00</li>
-            <li>4:30</li>
+            <li>13:00</li>
+            <li>16:00</li>
+            <li>16:30</li>
         </ul>
+        <!-- Info Column -->
         <ul class = "actions-item">
             <li>registation</li>
             <li>opening remarks</li>
             <li>hack a thing</li>
             <li class = "break">LUNCH BREAK</li>
+            <li>hack more thing</li>
             <li>show n tell or whatever</li>
             <li>closing remarks</li>
         </ul>
     </section>
     
 
-    <!-- sponsors and stuff -->
+    <!-- Sponsors -->
     <h2 class="sponsors-title">sponsors</h2>
     <section class = "sponsors-container _justify-center" id="spons">
 
-        <img src="/imgs/uvic_logo.png" alt="UVic Logo" class="uvic_icon">
+        <img src="./imgs/uvic_logo.png" alt="UVic Logo" class="uvic_icon">
 
     </section>
         
-    <!-- accessibility info -->
+    <!-- Accessibility Information -->
     <section>
         
     </section>
         
-    <!-- map info -->
-    <section>
-                    
-    </section>
-        
-    <!-- contact info -->
+    <!-- Map Infortmation -->
     <section>
                     
+    </section>
+        
+    <!-- Contact Info -->
+    <section>
+                    
 
     </section>
-</div>
-
-    
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</main>
 
 </body>
 </html>
