@@ -16,24 +16,25 @@
     
     <!-- Stylesheets
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/animations.css">
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <!-- <link rel="icon" type="image/png" href="./imgs/favicon.png"> -->
+    <!-- <link rel="icon" type="image/png" href="./images/favicon.png"> -->
     
 </head>
 <body>
     <main class="flex _direction-column container">
         <!-- Header -->
         <header class="flex _space-between _justify-end">
-            <img src="" alt="logo">
+            <img src="#" alt="logo">
                 
             <!-- Navigation -->
             <nav>
-                <a href="#description" target="_self">description</a>
-                <a href="#schedule" target="_self">schedule</a>
+                <a class="hide" href="#description" target="_self">description</a>
+                <a class="hide" href="#schedule" target="_self">schedule</a>
+                <a href="./codeofconduct.html">code of conduct</a>
             </nav>
         </header>
 
@@ -50,8 +51,8 @@
         </section>
 
         <!-- Description -->
-        <h2 class="description-title" id="description">what dis?</h2>
-        <section class = "description-container _direction-column">
+        <section class="description-container _direction-column">
+            <h2 class="description-title" id="description">what dis?</h2>
             <p>
             Hackathing UVic introduces beginner programmers, marketers, and designers to hackathons. 
             It’s meant to encourage people to create a project without the pressure of needing to make something serious. 
@@ -62,24 +63,24 @@
         </section>
 
         <!-- Schedule -->
-        <h2 class="schedule-title" id="schedule">schedule</h2>
-        <section class = "schedule-container _justify-center">
+        <section class="schedule-container _justify-center">
+            <h2 class="schedule-title" id="schedule">schedule</h2>
             <!-- Time Column -->
-            <ul class = "times-item">
+            <ul class="times-item">
                 <li>08:30</li>
                 <li>09:30</li>
                 <li>10:00</li>
-                <li class = "break">12:00</li>
+                <li class="break">12:00</li>
                 <li>13:00</li>
                 <li>16:00</li>
                 <li>16:30</li>
             </ul>
             <!-- Info Column -->
-            <ul class = "actions-item">
+            <ul class="actions-item">
                 <li>registation</li>
                 <li>opening remarks</li>
                 <li>hack a thing</li>
-                <li class = "break">LUNCH BREAK</li>
+                <li class="break">LUNCH BREAK</li>
                 <li>hack more thing</li>
                 <li>show n tell or whatever</li>
                 <li>closing remarks</li>
@@ -88,11 +89,9 @@
         
 
         <!-- Sponsors -->
-        <h2 class="sponsors-title">sponsors</h2>
-        <section class = "sponsors-container _justify-center" id="spons">
-
-            <img src="./imgs/uvic_logo.png" alt="UVic Logo" class="uvic_icon">
-
+        <section class="sponsors-container _justify-center">
+            <h2 class="sponsors-title" id="sponsors">sponsors</h2>
+            <img src="./images/uvic_logo.png" alt="UVic Logo" class="uvic_icon">
         </section>
             
         <!-- Accessibility Information -->
