@@ -59,6 +59,7 @@ body {
 	height: 100%;
 	width: 100%;
 	font-family: 'Raleway', sans-serif;
+	color: var(--hackathing-black);
 	background: url("./../imgs/geometry_@2X.png") repeat;
 	background-color: rgba(69, 99, 176, 0.6);
 	background-blend-mode: color-burn;
@@ -123,7 +124,6 @@ nav a:hover {
 .action-container h1 {
 	padding-top: 40px;
 	justify-content: right;
-	color: var(--hackathing-black);
     font-size: 90px;
 	font-weight: 500;
 	
@@ -135,7 +135,6 @@ nav a:hover {
 	margin: -20px auto auto auto;
 	padding-top: 40px;
 	font-style: italic;
-	color: var(--hackathing-black);
     font-size: 30px;
 	font-weight: 200;
 	align-self: center;
@@ -183,7 +182,6 @@ nav a:hover {
 .description-container h2 {
 	padding: 40px;
 	font-style: bold;
-	color: black;
     font-size: 33px;
 	font-weight: 500;
 	align-self: center;
@@ -220,7 +218,6 @@ nav a:hover {
 	font-style: bold;
 	font-size: 33px;
 	font-weight: 500;
-	color: black;
 
 	align-self: center;
 	-webkit-justify-content: center;
@@ -239,7 +236,7 @@ nav a:hover {
 
 .schedule-container ul .break {
 	color: var(--hackathing-yellow);
-	text-shadow: 2px 1px black;
+	text-shadow: 2px 1px var(--hackathing-black);
 }
 
 .schedule-container .times-item {
