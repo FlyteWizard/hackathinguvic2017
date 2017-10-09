@@ -6,10 +6,6 @@ Hackathing UVic 2017 Website
 
 How to do the thing
 
-![Website Picture](./images/Website.png)
-
-![Mobile Website](./images/MobileWebsite.png)
-
 ### Prerequisites
 
 Things you will need in order to contribute.
