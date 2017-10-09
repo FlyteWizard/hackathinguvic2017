@@ -4,7 +4,9 @@ Hackathing UVic 2017 Website
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+How to do the thing
+
+![Website Promo Picture](./images/PromoWebsite.png)
 
 ### Prerequisites
 
@@ -14,19 +16,21 @@ Things you will need in order to contribute.
 Git
 Github Account
 
+Terminal
 Text Editor
 ```
 
 ## Built With
 
 * HTML/CSS
+* Github
 
 ## Contributing
 
 ```
-Create your feature branch: git checkout -b my-new-feature
-Commit your changes: git commit -am 'Add some feature'
-Push to the branch: git push origin my-new-feature
+Create your feature branch: git checkout -b myUserName-featureName
+Commit your changes: git commit -m "Added a thing"
+Push to the branch: git push origin myUserName-featureName
 Submit a pull request :D
 ```
 
@@ -40,4 +44,5 @@ Submit a pull request :D
 
 * Hat tip to anyone who's code was used
 * Inspiration
+* Background Pictures
 * etc
