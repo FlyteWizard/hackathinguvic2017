@@ -8,6 +8,8 @@ How to do the thing
 
 ![Website Promo Picture](./images/PromoWebsite.png)
 
+![Mobile Website Promo Picture](./images/MobilePromoWebsite.png)
+
 ### Prerequisites
 
 Things you will need in order to contribute.
