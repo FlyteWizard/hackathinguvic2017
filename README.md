@@ -6,9 +6,9 @@ Hackathing UVic 2017 Website
 
 How to do the thing
 
-![Website Promo Picture](./images/PromoWebsite.png)
+![Website Picture](./images/Website.png)
 
-![Mobile Website Promo Picture](./images/MobilePromoWebsite.png)
+![Mobile Website](./images/MobileWebsite.png)
 
 ### Prerequisites
 
