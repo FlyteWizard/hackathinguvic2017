@@ -1,6 +1,6 @@
 # Hackathing UVic 2017
 
-Hackathing UVic 2017 Website
+The website for Hackathing UVic 2017, made with flexbox and other fun things like semantic html and love.
 
 ## Getting Started
 
@@ -37,6 +37,18 @@ Submit a pull request :D
 * **Amy** - *Initial work* - [amyhanv](https://github.com/amyhanv)
 * **Dominique** - *Initial work* - [FlyteWizard](https://github.com/FlyteWizard)
 * **Kaitlin** - *Initial work* - [k-erby](https://github.com/k-erby)
+
+## TO DOs
+
+* Accessibility info.
+* Contact section.
+.. * twitter
+.. * facebook
+* Logo addition.
+* Favicon addition.
+* Facebook integration.
+* Animations? Cool graphics or whatever?
+* Terrible version of the site, too.
 
 ## Acknowledgments
 
