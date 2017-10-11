@@ -41,9 +41,7 @@ Submit a pull request :D
 ## TO DOs
 
 * Accessibility info.
-* Contact section.
-⋅⋅ * twitter
-⋅⋅ * facebook
+* Contact section: twitter, facebook, etc.
 * Logo addition.
 * Favicon addition.
 * Facebook integration.
