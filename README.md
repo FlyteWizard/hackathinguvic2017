@@ -42,8 +42,8 @@ Submit a pull request :D
 
 * Accessibility info.
 * Contact section.
-.. * twitter
-.. * facebook
+⋅⋅ * twitter
+⋅⋅ * facebook
 * Logo addition.
 * Favicon addition.
 * Facebook integration.
