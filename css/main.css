@@ -210,7 +210,8 @@ header nav a:hover,
 /* Text */
 .schedule-title,
 .sponsors-title, 
-.description-title {
+.description-title,
+.accessibility-title {
 	display: -webkit-flex;
 	display: flex;
 
@@ -242,7 +243,7 @@ header nav a:hover,
 .schedule-container .actions-item {
 	width: 400px;
 	font-size: 1.3em;
-	line-height: 2em;
+	line-height: 2.5em;
 }
 
 /* Sponsor */
@@ -311,10 +312,14 @@ header nav a:hover,
 		text-align: justify;
 		width: 300px;
 	}
+
+	.schedule-container .times-item {
+		font-size: 1.7em;
+		height: 2em;
+   }
 	.schedule-container .actions-item {
-		font-size: 1em;
-	}
-	.schedule-container ul li {
-		height: 90px; /* TODO: Change to EM*/
+		font-size: 1.1em;
+		line-height: 1em;
+		margin: 1.1em auto auto auto;
 	}
 }
