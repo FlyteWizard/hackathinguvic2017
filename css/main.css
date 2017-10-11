@@ -248,19 +248,14 @@ header nav a:hover,
 
 /* Sponsor */
 .sponsors-container {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: row;
-	flex-direction: row;
-	-webkit-justify-content: center;
-	justify-content: center;
-	padding-bottom: 3em;
+	padding: 0.8em;
+	text-align: center;
 }
 
 /* Logo */
 .uvic_icon{
-	height: 5em; 
-	width: auto;
+	height: 5em;
+	width: auto; 
 }
 
 /* Media Queries */
