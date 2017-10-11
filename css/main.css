@@ -127,12 +127,16 @@ header nav a:hover,
 	flex-flow: row wrap;
 }
 
-.action-container h1,  
+.action-container img,  
 .codeofconduct-container h1 {
     font-size: 5.5em;
 	font-weight: 500;
 	text-align: center;
 	margin: auto auto 0px auto;
+}
+
+.action-container img {
+	width: 85%;
 }
 
 .action-container h2,
@@ -207,7 +211,7 @@ header nav a:hover,
 	justify-content: center;
 }
 
-/* Text */
+/* Title Text */
 .schedule-title,
 .sponsors-title, 
 .description-title,
@@ -260,13 +264,12 @@ header nav a:hover,
 
 /* Media Queries */
 @media (min-width: 1000px){
-	.action-container h1, .codeofconduct-container h1 {
+	.codeofconduct-container h1 {
 		font-size: 6em;
 	}
 }
 
 @media (max-width: 700px) {
-	.action-container h1, 
 	.codeofconduct-container h1 {
 		font-size: 4.5em;
 	}
@@ -290,7 +293,9 @@ header nav a:hover,
 	header nav a {
 		padding-left: 0;
 	}
-	.action-container h1, 
+	.code-of-conduct-p {
+		padding-top: 3em;
+	}
 	.codeofconduct-container h1 { 
 		font-size: 2.8em;
 	}
