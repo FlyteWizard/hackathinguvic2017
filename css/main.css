@@ -1,5 +1,5 @@
 /* Font */
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800,900');
 
 /* CSS */
 @import url('./animations.css');
@@ -61,14 +61,14 @@
 body {
 	height: 100%;
 	width: 100%;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Heebo', sans-serif;
 	color: #000000;
 	background: url("./../images/geometry_@2X.png") repeat;
 	background-blend-mode: color-burn;
 }
 
 .index {
-	background-color: rgba(69, 99, 176, 0.6);
+	background-color: rgba(135, 206, 255, 0.5);
 }
 
 .codeofconduct {
@@ -87,9 +87,9 @@ body {
 
 /* Header and Navigation */
 header {
-	font-family: 'Raleway';
+	font-family: 'Heebo';
 	padding: 2em 0;
-	margin-bottom: -1em;
+	margin-bottom: -3em;
 	font-size: 1.1em;
 }
 
@@ -111,8 +111,8 @@ header nav a {
 
 header nav a:hover,
 .schedule-container ul .break {
-	color: #F6C92E;
-	text-shadow: 0.1em 0.05em #000000;
+	color: #c56800;
+	text-shadow: 0.07em 0.07em #000000;
 }
 
 /* Action */
@@ -128,17 +128,16 @@ header nav a:hover,
 	
 	flex-flow: row wrap;
 }
-
-.action-container img,  
+  
+.action-container h1,
 .codeofconduct-container h1 {
     font-size: 5.5em;
-	font-weight: 500;
+	font-weight: 900;
+	letter-spacing: 1px;
 	text-align: center;
 	margin: auto auto 0px auto;
-}
-
-.action-container img {
-	width: 85%;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
 }
 
 .action-container h2,
@@ -187,7 +186,7 @@ header nav a:hover,
 }
 
 /* Description */
-.description-container {
+.description-container {  /* TODO: shove flexbox things elsewhere */
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -198,7 +197,7 @@ header nav a:hover,
 }
 
 .description-container p {
-	padding-bottom: 10em;
+	padding-bottom: 5em;
 	line-height: 1.5em;
 	font-size: 1.1em;
 	width: 670px;
@@ -245,6 +244,8 @@ header nav a:hover,
 	height: 70px; /* TODO: Can't Change This To "em"*/
 }
 
+/* need to chunk this up into groupine rules */
+
 .schedule-container .times-item {
 	 text-align: right;
 	 width: 300px;
@@ -258,8 +259,9 @@ header nav a:hover,
 }
 
 /* Sponsor */
-.sponsors-container {
-	padding: 0.8em;
+.sponsors-container,
+.accessibility-container {
+	padding: 1.2em auto;
 	text-align: center;
 }
 
@@ -271,13 +273,15 @@ header nav a:hover,
 
 /* Media Queries */
 @media (min-width: 1000px){
-	.codeofconduct-container h1 {
+	.codeofconduct-container h1,
+	.action-container h1 {
 		font-size: 6em;
 	}
 }
 
 @media (max-width: 700px) {
-	.codeofconduct-container h1 {
+	.codeofconduct-container h1,
+	.action-container h1 {
 		font-size: 4.5em;
 	}
 	.description-container p,
@@ -303,7 +307,8 @@ header nav a:hover,
 	.code-of-conduct-p {
 		padding-top: 3em;
 	}
-	.codeofconduct-container h1 { 
+	.codeofconduct-container h1,
+	.action-container h1 { 
 		font-size: 2.8em;
 	}
 	.action-container h2,
