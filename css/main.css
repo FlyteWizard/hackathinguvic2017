@@ -62,7 +62,7 @@ body {
 	height: 100%;
 	width: 100%;
 	font-family: 'Heebo', sans-serif;
-	color: #000000;
+	color: #414e6b;
 	background: url("./../images/geometry_@2X.png") repeat;
 	background-blend-mode: color-burn;
 }
@@ -103,7 +103,7 @@ header img {
 header nav a {
 	letter-spacing: 0.03em;
 	text-decoration: none;
-	color: #000000;
+	color: #414e6b;
 	padding-left: 0.6em;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -112,30 +112,30 @@ header nav a {
 header nav a:hover,
 .schedule-container ul .break {
 	color: #c56800;
-	text-shadow: 0.07em 0.07em #000000;
+	text-shadow: 0.07em 0.07em #414e6b;
 }
 
 /* Action */
 .action-container, 
 .codeofconduct-container {
-	height: 100vh;
-	
-    display: -webkit-box;
+	padding-top: 3em;
+	display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    display: flex;
+	display: flex;
 	
-	flex-flow: row wrap;
+	
+	flex-flow: column wrap;
 }
   
 .action-container h1,
 .codeofconduct-container h1 {
-    font-size: 5.5em;
+    font-size: 5.4em;
 	font-weight: 900;
 	letter-spacing: 1px;
 	text-align: center;
-	margin: auto auto 0px auto;
+	margin: 0.8em auto 0 auto;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 }
@@ -143,7 +143,6 @@ header nav a:hover,
 .action-container h2,
 .codeofconduct-container h2 {
 	margin: -0.5em auto auto auto;
-	padding-top: 1em;
 	font-style: italic;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -151,6 +150,13 @@ header nav a:hover,
 	font-weight: 200;
 	text-align: center;
 	padding-bottom: 2em;
+}
+
+.action-container p {
+	text-align: center;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	margin: 2em auto;
 }
 
 /* Code of Conduct */
@@ -164,7 +170,7 @@ header nav a:hover,
 
 /* Registration */
 .registration-container {
-    margin: 0 auto auto auto;
+    margin: 3em auto auto auto;
     width: 100%;
     text-align: center;
 }
@@ -172,7 +178,7 @@ header nav a:hover,
 .registration-container .button {
 	color: #FFFFFF;
 	text-decoration: none;
-    border: 1px solid #000000;
+    border: 1px solid #414e6b;
     border-radius: 1em 0.5em 0.22em 0;
     padding: 0.8em;
 }
@@ -272,17 +278,10 @@ header nav a:hover,
 }
 
 /* Media Queries */
-@media (min-width: 1000px){
-	.codeofconduct-container h1,
-	.action-container h1 {
-		font-size: 6em;
-	}
-}
-
 @media (max-width: 700px) {
 	.codeofconduct-container h1,
 	.action-container h1 {
-		font-size: 4.5em;
+		font-size: 4em;
 	}
 	.description-container p,
 	.codeofconduct-container p {
@@ -294,6 +293,11 @@ header nav a:hover,
 @media (max-width: 600px) {
 	.hide {
 		display: none;
+	}
+
+	.codeofconduct-container h1,
+	.action-container h1 {
+		font-size: 3.5em;
 	}
 }
 
@@ -309,7 +313,7 @@ header nav a:hover,
 	}
 	.codeofconduct-container h1,
 	.action-container h1 { 
-		font-size: 2.8em;
+		font-size: 2.5em;
 	}
 	.action-container h2,
 	.codeofconduct-container h2 {
