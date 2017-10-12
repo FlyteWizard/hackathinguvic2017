@@ -105,6 +105,8 @@ header nav a {
 	text-decoration: none;
 	color: #000000;
 	padding-left: 0.6em;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
 }
 
 header nav a:hover,
@@ -144,6 +146,8 @@ header nav a:hover,
 	margin: -0.5em auto auto auto;
 	padding-top: 1em;
 	font-style: italic;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
     font-size: 1.6em;
 	font-weight: 200;
 	text-align: center;
@@ -226,6 +230,9 @@ header nav a:hover,
 	align-self: center;
 	-webkit-justify-content: center;
 	justify-content: center;
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
 }
 
 /* Schedule Table */
