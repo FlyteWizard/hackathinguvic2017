@@ -16,7 +16,7 @@
 /* :root {
 	--hackathing-black: #000000;
 	--hackathing-white: #FFFFFF;
-	--hackathing-yellow: #F6C92E;
+	--hackathing-yellow: #F6C92E;.description-container p
 	--hackathing-red: #F4523A;
 	--hackathing-orange: #F58E2E;
 	--hackathing-blue: #4463B3;
@@ -92,7 +92,11 @@ header {
 	margin-bottom: -3em;
 	font-size: 1.1em;
 }
-
+header .nav-logo {
+	color: #6677a0;
+	letter-spacing: 1px;
+	font-size: 22px;
+}
 header img {
 	padding-left: 1em;
     margin-top: -3.8em;
@@ -105,6 +109,7 @@ header nav a {
 	text-decoration: none;
 	color: #414e6b;
 	padding-left: 0.6em;
+	font-weight: 300;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 }
@@ -176,11 +181,20 @@ header nav a:hover,
 }
 
 .registration-container .button {
-	color: #FFFFFF;
+	color: #000;
+	background-color: orange;
 	text-decoration: none;
-    border: 1px solid #414e6b;
+
+    border: 1px solid transparent;
+
     border-radius: 1em 0.5em 0.22em 0;
     padding: 0.8em;
+}
+.registration-container .button:hover {
+	background-color: #d8693b;
+	-webkit-transition: background-color 0.5s linear;
+    -ms-transition: background-color 0.5s linear;
+    transition: background-color 0.5s linear;
 }
 
 .registration-container p {
@@ -207,6 +221,7 @@ header nav a:hover,
 	line-height: 1.5em;
 	font-size: 1.1em;
 	width: 670px;
+	font-weight: 300;
 	text-align: center;
 }
 
@@ -248,6 +263,9 @@ header nav a:hover,
 
 .schedule-container ul li {
 	height: 70px; /* TODO: Can't Change This To "em"*/
+}
+.actions-item li {
+	font-weight: 300;
 }
 
 /* need to chunk this up into groupine rules */
