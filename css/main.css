@@ -116,7 +116,7 @@ header nav a {
 
 header nav a:hover,
 .schedule-container ul .break {
-	color: #c56800;
+	color: #d8693b;
 	text-shadow: 0.07em 0.07em #414e6b;
 }
 
@@ -175,7 +175,7 @@ header nav a:hover,
 
 /* Registration */
 .registration-container {
-    margin: 3em auto auto auto;
+    margin: 3em auto 1.3em auto;
     width: 100%;
     text-align: center;
 }
