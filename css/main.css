@@ -190,8 +190,10 @@ header nav a:hover,
 	margin-top: 2em;
 }
 
-.registration-container p a {
-	color: #FFFFFF;
+.registration-container p a,
+.accessibility-container p a,
+.contact-container p a {
+	color: orange;
 }
 
 /* Description */
@@ -228,7 +230,8 @@ header nav a:hover,
 .schedule-title,
 .sponsors-title, 
 .description-title,
-.accessibility-title {
+.accessibility-title,
+.contact-title {
 	display: -webkit-flex;
 	display: flex;
 
@@ -273,8 +276,9 @@ header nav a:hover,
 
 /* Sponsor */
 .sponsors-container,
-.accessibility-container {
-	padding: 1.2em auto;
+.accessibility-container,
+.contact-container {
+	padding: 1.2em;
 	text-align: center;
 }
 
