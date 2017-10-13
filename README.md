@@ -39,10 +39,9 @@ Submit a pull request :D
 * **Dominique** - *Initial work* - [FlyteWizard](https://github.com/FlyteWizard)
 * **Kaitlin** - *Initial work* - [k-erby](https://github.com/k-erby)
 
-## TO DOs
+## TODOs
 
-* Accessibility info.
-* Contact section: twitter, facebook, etc.
+* Clean up CSS.
 * Logo addition.
 * Favicon addition.
 * Facebook integration.
