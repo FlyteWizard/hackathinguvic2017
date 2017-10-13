@@ -12,17 +12,6 @@
 	-moz-box-sizing: border-box;
 }
 
-/* Note: this isn't supported on all browsers */
-/* :root {
-	--hackathing-black: #000000;
-	--hackathing-white: #FFFFFF;
-	--hackathing-yellow: #F6C92E;.description-container p
-	--hackathing-red: #F4523A;
-	--hackathing-orange: #F58E2E;
-	--hackathing-blue: #4463B3;
-	--hackathing-green: #67C1A4;
-} */
-
 /* Flex Box */
 .flex {
 	display: flex;
