@@ -223,7 +223,7 @@ header nav a:hover,
 	display: -webkit-flex;
 	display: flex;
 
-    padding: 0.8em 0;
+	padding: 3em 0 0.8em 0;
     font-size: 2.2em;
     font-weight: 500;
 	
