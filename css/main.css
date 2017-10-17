@@ -3,6 +3,7 @@
 
 /* CSS */
 @import url('./animations.css');
+@import url('./font-awesome.min.css');
 
 * {
 	margin: 0;
@@ -56,10 +57,6 @@ body {
 	background-blend-mode: color-burn;
 }
 
-.index {
-	background-color: rgba(135, 206, 255, 0.5);
-}
-
 .codeofconduct {
 	background-color: rgba(103, 193, 164, 0.6);
 }
@@ -83,24 +80,23 @@ header {
 }
 header .nav-logo {
 	color: #6677a0;
-	letter-spacing: 1px;
-	font-size: 22px;
+	letter-spacing: 0.1em;
+	font-size: 1.2em;
 }
-header img {
-	padding-left: 1em;
-    margin-top: -3.8em;
-	width: 6em;
-	height: 150px; /* SAFARI */
+
+header a .fa {
+    font-size: 1.4em;
 }
 
 header nav a {
 	letter-spacing: 0.03em;
 	text-decoration: none;
 	color: #414e6b;
-	padding-left: 0.6em;
+	padding-left: 1.3em;
 	font-weight: 300;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
+	font-size: 1.1em;
 }
 
 header nav a:hover,
@@ -125,11 +121,11 @@ header nav a:hover,
   
 .action-container h1,
 .codeofconduct-container h1 {
-    font-size: 5.4em;
-	font-weight: 900;
-	letter-spacing: 1px;
-	text-align: center;
-	margin: 0.8em auto 0 auto;
+    font-size: 3.4em;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	text-align: left;
+	margin: 0.8em 0 0 0;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 }
@@ -147,10 +143,9 @@ header nav a:hover,
 }
 
 .action-container p {
-	text-align: center;
+	text-align: left;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
-	margin: 2em auto;
 }
 
 /* Code of Conduct */
@@ -166,17 +161,17 @@ header nav a:hover,
 .registration-container {
     margin: 3em auto 1.3em auto;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 .registration-container .button {
 	color: #000;
-	background-color: orange;
+	background-color: transparent;
 	text-decoration: none;
 
-    border: 1px solid transparent;
+    border: 1px solid black;
 
-    border-radius: 1em 0.5em 0.22em 0;
+    border-radius: 0.5em;
     padding: 0.8em;
 }
 .registration-container .button:hover {
@@ -194,6 +189,7 @@ header nav a:hover,
 .accessibility-container p a,
 .contact-container p a {
 	color: orange;
+	font-weight: 300;
 }
 
 /* Description */
@@ -203,7 +199,7 @@ header nav a:hover,
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    align-items: center;
+    align-items: left;
 
 }
 
@@ -211,9 +207,9 @@ header nav a:hover,
 	padding-bottom: 5em;
 	line-height: 1.5em;
 	font-size: 1.1em;
-	width: 670px;
+	width: 620px;
 	font-weight: 300;
-	text-align: center;
+	text-align: left;
 }
 
 /* Schedule */
@@ -222,8 +218,8 @@ header nav a:hover,
 	display: flex;
 	-webkit-flex-direction: row;
 	flex-direction: row;
-	-webkit-justify-content: center;
-	justify-content: center;
+	-webkit-justify-content: left;
+	justify-content: left;
 }
 
 /* Title Text */
@@ -235,13 +231,13 @@ header nav a:hover,
 	display: -webkit-flex;
 	display: flex;
 
-	padding: 0.8em;
-	font-size: 2.2em;
-	font-weight: 500;
-
-	align-self: center;
-	-webkit-justify-content: center;
-	justify-content: center;
+    padding: 0.8em 0;
+    font-size: 2.2em;
+    font-weight: 500;
+	
+	align-self: left;
+	-webkit-justify-content: left;
+	justify-content: left;
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -249,7 +245,7 @@ header nav a:hover,
 
 /* Schedule Table */
 .schedule-container ul {
-	padding: 1em;
+	padding: 1em 1em 0 0;
 	list-style-type: none;
 }
 
@@ -266,7 +262,6 @@ header nav a:hover,
 
 .schedule-container .times-item {
 	 text-align: right;
-	 width: 300px;
 	 font-size: 1.8em;
 }
 
@@ -280,8 +275,7 @@ header nav a:hover,
 .sponsors-container,
 .accessibility-container,
 .contact-container {
-	padding: 1.2em;
-	text-align: center;
+	text-align: left;
 	margin-bottom: 40px;
 }
 
@@ -289,6 +283,11 @@ header nav a:hover,
 .uvic_icon{
 	height: 5em;
 	width: auto; 
+}
+
+.contact-container a .fa {
+	font-size: 2em;
+	padding-right: 0.7em;
 }
 
 /* Media Queries */

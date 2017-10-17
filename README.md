@@ -42,11 +42,6 @@ Submit a pull request :D
 ## TODOs
 
 * Clean up CSS.
-* Logo addition.
-* Favicon addition.
-* Facebook integration.
-* Animations? Cool graphics or whatever?
-* Terrible version of the site, too.
 
 ## Acknowledgments
 
