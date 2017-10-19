@@ -53,7 +53,7 @@ body {
 	width: 100%;
 	font-family: 'Heebo', sans-serif;
 	color: #414e6b;
-	background: url("./../images/geometry_@2X.png") repeat;
+	background: url("http://www.hackathinguvic.com/images/geometry_@2X.png") repeat;
 	background-blend-mode: color-burn;
 }
 

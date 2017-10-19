@@ -23,7 +23,8 @@ Text Editor
 ## Built With
 
 * HTML/CSS
-* Github
+* Surge
+* Flexbox
 
 ## Contributing
 
