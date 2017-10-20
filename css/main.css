@@ -307,6 +307,17 @@ header nav a:hover,
 .uvic_icon{
 	height: 5em;
 	width: auto; 
+	margin: 1em 0;
+}
+.swu_icon {
+	width: 18em;
+	height: auto;
+	margin: 1em 0;
+}
+.workday_icon {
+	width: 14em;
+	height: auto;
+	margin: 1em 0;
 }
 
 .contact-container a .fa {
