@@ -104,7 +104,7 @@ header nav a:hover,
 	text-shadow: 0.07em 0.07em #414e6b;
 }
 
-.fa-comment {
+header .fa-comment {
 	color: 	#3b5998;
 }
 
@@ -320,7 +320,7 @@ header nav a:hover,
 	margin: 1em 0;
 }
 .launchaco_icon {
-	width: 14.7em;
+	width: 14.5em;
     height: auto;
     margin: 1em 0;
 }
