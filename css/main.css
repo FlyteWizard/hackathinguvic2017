@@ -310,14 +310,19 @@ header nav a:hover,
 	margin: 1em 0;
 }
 .swu_icon {
-	width: 18em;
+	width: 14.4em;
 	height: auto;
 	margin: 1em 0;
 }
 .workday_icon {
-	width: 14em;
+	width: 14.5em;
 	height: auto;
 	margin: 1em 0;
+}
+.launchaco_icon {
+	width: 14.7em;
+    height: auto;
+    margin: 1em 0;
 }
 
 .contact-container a .fa {
