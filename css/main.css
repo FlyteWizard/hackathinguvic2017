@@ -108,6 +108,12 @@ header .fa-comment {
 	color: 	#3b5998;
 }
 
+#messenger-link {
+	width: 1.3em;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
 
 /* Action */
 .action-container, 
@@ -295,6 +301,9 @@ header .fa-comment {
 }
 
 /* Sponsor */
+.sponsors-container > img {
+	margin: 2em 0;
+}
 .sponsors-container,
 .accessibility-container,
 .contact-container {
@@ -361,7 +370,7 @@ header .fa-comment {
 @media (max-width: 500px) {
 	.container { padding: 0 1.5em;}
 	header img {
-		margin-left: -2em;
+		/*margin-left: -2em;*/
 	}
 	header nav a {
 		padding-left: 0;
