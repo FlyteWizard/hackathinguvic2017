@@ -28,11 +28,15 @@ Text Editor
 
 ## Contributing
 
-```
-Create your feature branch: git checkout -b myUserName-featureName
-Commit your changes: git commit -m "Added a thing"
-Push to the branch: git push origin myUserName-featureName
-Submit a pull request :D
+```bash
+# Create your feature branch: 
+git checkout -b myUserName-featureName
+# Commit your changes: 
+git commit -m "Added a thing"
+# Push to the branch: 
+git push origin myUserName-featureName
+
+# Submit a pull request :D
 ```
 
 ## Authors
@@ -40,10 +44,6 @@ Submit a pull request :D
 * **Amy** - *Initial work* - [amyhanv](https://github.com/amyhanv)
 * **Dominique** - *Initial work* - [FlyteWizard](https://github.com/FlyteWizard)
 * **Kaitlin** - *Initial work* - [k-erby](https://github.com/k-erby)
-
-## TODOs
-
-* Clean up CSS.
 
 ## Acknowledgments
 
