@@ -2,8 +2,6 @@
 
 The website for Hackathing UVic 2017, made with flexbox and other fun things like semantic html and love.
 
-Quick link to the site is [here](http://www.hackathinguvic.com).
-
 ## Getting Started
 
 How to do the thing
